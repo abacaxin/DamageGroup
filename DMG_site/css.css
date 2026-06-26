@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
@@ -265,6 +265,66 @@
     margin-right: 8px;
   }
 
+  .card-display{
+    width: 100%;
+    padding: 10px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .4s ease;
+  }
+
+  .card{
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 800px;
+    background: linear-gradient(to bottom, #940d26, #080808);
+    padding: 0px;
+    margin: 20px;
+    font-family: "Science Gothic", sans-serif;
+    font-size: 150px;
+    font-weight: 800;
+    color: #f5c5c5;
+    transition: all .4s ease;
+    position: relative;
+  }
+
+  .photo{
+    min-width: 100%;
+    position: relative;
+    inset: 0;
+
+    z-index: 2;
+    mix-blend-mode:multiply;
+
+  }
+
+  .card:hover{
+    transform: scale(1.05);
+  }
+
+  .card.active{
+    transform: scale(1.20);
+    z-index: 2;
+  }
+
+  .card.inactive{
+    transform: scale(0.8);
+    opacity: 0.1;
+    margin: 30px;
+  }
+
+  .letter{
+    position: absolute;
+    top: 10px;
+    font-size: 260px;
+  }
   @keyframes ticker {
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
@@ -273,8 +333,13 @@
   /* SERVICES */
   .section {
     padding: 100px 40px;
+    width: 100%;
   }
-
+  .sectioncard{
+    padding: 100px 40px;
+    padding-top: 0px;;
+    width: 100%;
+  }
   .section-label {
     font-family: var(--mono);
     font-size: 11px;
