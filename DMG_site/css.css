@@ -322,7 +322,7 @@
     flex-direction: column;
     width: 550px;
     height: 800px;
-    background: linear-gradient(to bottom, #940d26, #080808);
+    background: linear-gradient(to bottom, #d80510, #080808);
     padding: 0px;
     margin: 20px;
     font-family: "Science Gothic", sans-serif;
@@ -341,7 +341,7 @@
     z-index: 2;
     overflow: hidden;
     
-    mix-blend-mode:multiply;
+    mix-blend-mode:multiply
 
   }
 

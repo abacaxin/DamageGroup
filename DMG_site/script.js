@@ -15,7 +15,7 @@ hero.addEventListener("mousemove",(e)=>{
 
     grid.style.setProperty("--x", x+"px");
     grid.style.setProperty("--y", y+"px");
-
+});
 cards.forEach(card=> {
     card.addEventListener("click", () => {
         if(card.classList.contains("active")){
