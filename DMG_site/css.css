@@ -358,6 +358,7 @@
     transform: scale(0.8);
     opacity: 0.1;
     margin: 30px;
+    filter: blur(3px);
   }
   #gui{
     transform: scaleX(-1);
