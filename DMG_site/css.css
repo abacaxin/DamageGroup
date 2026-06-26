@@ -42,15 +42,15 @@
   }
 
   .logo-mark {
-    width: 36px;
-    height: 36px;
+    width: 50px;
+    height: 50px;
     background: var(--red);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: var(--mono);
+    font-family: Science Gothic;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: -1px;
     color: #fff;
   }
@@ -340,8 +340,8 @@
     margin-top: 80px;
     z-index: 2;
     overflow: hidden;
-    
-    mix-blend-mode:multiply
+    opacity: 0.99;
+    mix-blend-mode: overlay;
 
   }
 
