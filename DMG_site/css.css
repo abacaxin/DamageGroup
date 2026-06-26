@@ -359,7 +359,9 @@
     opacity: 0.1;
     margin: 30px;
   }
-
+  #gui{
+    transform: scaleX(-1);
+  }
   .letter{
     position: absolute;
     top: 10px;
