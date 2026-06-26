@@ -299,8 +299,10 @@
     min-width: 100%;
     position: relative;
     inset: 0;
-
+    margin-top: 80px;
     z-index: 2;
+    overflow: hidden;
+    
     mix-blend-mode:multiply;
 
   }
